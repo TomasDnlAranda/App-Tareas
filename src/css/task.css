@@ -1,0 +1,101 @@
+.container-task {
+	width: 500px;
+	min-height: 65px;
+	margin: 5px 0;
+	padding: 8px 15px 8px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 7px;
+	border: 1px solid #fff;
+	cursor: pointer;
+	user-select: none;
+}
+.color1 {
+	background: #712b75;
+}
+.color2 {
+	background: #e83a14;
+}
+.color3 {
+	background: #5800ff;
+}
+.color4 {
+	background: #f0a500;
+}
+
+.color5 {
+	background: #f10086;
+}
+.color6 {
+	background: #a7d129;
+}
+.color7 {
+	background: #162447;
+}
+.color8 {
+	background: #345b63;
+}
+.color9 {
+	background: #185adb;
+}
+.color10 {
+	background: #bf1363;
+}
+.task-text {
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	overflow-wrap: anywhere;
+}
+.task-icon {
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	color: rgb(154, 164, 255);
+}
+.completed {
+	background-color: #000000;
+	text-decoration: line-through;
+}
+
+@media (max-width: 640px) {
+	.container-task {
+		width: 350px;
+		min-height: 50px;
+		margin: 3px 0;
+		padding: 5px 10px 5px 15px;
+	}
+}
+@media (max-width: 490px) {
+	.container-task {
+		width: 250px;
+		min-height: 50px;
+		margin: 3px 0;
+		padding: 3px 4px 3px 8px;
+	}
+	.task-text {
+		font-size: 12px;
+	}
+	.task-icon {
+		width: 15px;
+		height: 15px;
+	}
+}
+@media (max-width: 392px) {
+	.container-task {
+		width: 200px;
+		min-height: 50px;
+		margin: 3px 0;
+		padding: 3px 4px 3px 8px;
+	}
+	.task-text {
+		font-size: 12px;
+	}
+	.task-icon {
+		width: 15px;
+		height: 15px;
+	}
+}

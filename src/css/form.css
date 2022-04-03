@@ -1,0 +1,61 @@
+.task-form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.task-input {
+	width: 350px;
+	font-size: 18px;
+	background-color: #fff;
+	padding: 14px 32px 14px 16px;
+	border-radius: 4px 0 0 4px;
+	border: 2px solid #00471b;
+	outline: none;
+}
+
+.task-button {
+	padding: 16px;
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	border: none;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	outline: none;
+	background-color: #004716;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+@media (max-width: 640px) {
+	.task-input {
+		width: 225px;
+		font-size: 14px;
+	}
+	.task-button {
+		padding: 16px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 490px) {
+	.task-input {
+		width: 150px;
+		font-size: 10px;
+	}
+	.task-button {
+		padding: 16px;
+		font-size: 10px;
+	}
+}
+@media (max-width: 392px) {
+	.task-input {
+		width: 65px;
+		font-size: 10px;
+	}
+	.task-button {
+		padding: 16px;
+		font-size: 10px;
+	}
+}

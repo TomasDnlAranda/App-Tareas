@@ -1,0 +1,96 @@
+.input {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.input-task {
+	width: 200px;
+	font-size: 18px;
+	background-color: #fff;
+	padding: 14px 32px 14px 16px;
+	border-radius: 4px 0 0 4px;
+	border: 2px solid #ffffff;
+	outline: none;
+}
+
+.submit {
+	padding: 16px;
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+	border: none;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.color1 {
+	background: #712b75;
+}
+.color2 {
+	background: #e83a14;
+}
+.color3 {
+	background: #5800ff;
+}
+.color4 {
+	background: #f0a500;
+}
+
+.color5 {
+	background: #f10086;
+}
+.color6 {
+	background: #a7d129;
+}
+.color7 {
+	background: #162447;
+}
+.color8 {
+	background: #345b63;
+}
+.color9 {
+	background: #185adb;
+}
+.color10 {
+	background: #bf1363;
+}
+
+@media (max-width: 640px) {
+	.input-task {
+		width: 125px;
+		font-size: 10px;
+		padding: 10px 28px 10px 12px;
+	}
+
+	.submit {
+		padding: 12px;
+		font-size: 10px;
+	}
+}
+@media (max-width: 490px) {
+	.input-task {
+		width: 75px;
+		font-size: 10px;
+		padding: 7.5px 24px 7.5px 10px;
+	}
+	.submit {
+		padding: 9.5px;
+		font-size: 10px;
+	}
+}
+@media (max-width: 392px) {
+	.input-task {
+		width: 55px;
+		font-size: 10px;
+		padding: 7.5px 24px 7.5px 10px;
+	}
+	.submit {
+		padding: 9.5px;
+		font-size: 10px;
+	}
+}
